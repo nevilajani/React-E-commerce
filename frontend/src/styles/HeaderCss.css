@@ -1,0 +1,49 @@
+/* Header.css */
+
+.header {
+  background-color: #c2d950; /* Background color for the header */
+  color: #fff; /* Text color */
+  padding: 0 0; /* Padding around the header */
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space items evenly along the main axis */
+  align-items: center; /* Center items vertically */
+}
+  
+  .logo-container {
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+  }
+  
+  .logo {
+    height: 50px; /* Set height for the logo */
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  
+  .nav {
+    flex: 1; /* Take up remaining space */
+    text-align: right; /* Align navigation links to the right */
+  }
+  
+  .nav-list {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .nav-item {
+    display: inline-block; /* Display list items horizontally */
+    margin-left: 1rem; /* Add spacing between list items */
+  }
+  
+  .nav-link {
+    color: #fff; /* Text color for navigation links */
+    text-decoration: none; /* Remove default underline */
+    transition: color 0.3s; /* Smooth transition for color change */
+  }
+  
+  .nav-link:hover {
+    color: #ffcc00; /* Change text color on hover */
+  }
+  

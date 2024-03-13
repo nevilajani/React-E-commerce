@@ -1,0 +1,57 @@
+h1 {
+    color: #333;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  h3 {
+    color: #333;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  /* Form Styles */
+  .form-control {
+    border-radius: 20px;
+    border-color: #ccc;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+    box-shadow: none;
+  }
+  
+  .form-group textarea.form-control {
+    resize: none;
+  }
+  
+  /* Button Styles */
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 20px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  /* Contact Information Styles */
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  li {
+    color: #555;
+    font-size: 1.1rem;
+  }
+  
+  /* Media Query for Small Screens */
+  @media (max-width: 767.98px) {
+    h1, h3 {
+      font-size: 2rem;
+    }
+  }
+  

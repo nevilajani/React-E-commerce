@@ -1,0 +1,38 @@
+/* GridContainer.css */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 70px; /* Adjust the gap between items */
+  }
+  
+  .grid-item {
+    width: 100%; /* Adjust the width of each item */
+    height: auto; /* Ensure the height adjusts according to the width */
+  }
+  
+  /* If you want the images to maintain aspect ratio */
+  .grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  /* AddToCartButton.css */
+
+.add-to-cart-button {
+    background-color: #ff9f00;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-to-cart-button:hover {
+    background-color: #e68a00;
+  }
+  
+  
+ 
+  
