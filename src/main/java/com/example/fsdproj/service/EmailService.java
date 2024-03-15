@@ -9,7 +9,7 @@ import org.springframework.mail.SimpleMailMessage;
 @Service
 public class EmailService {
 
-    @Autowired
+
     private JavaMailSender javaMailSender;
 
     public void sendEmail(Email email) {
